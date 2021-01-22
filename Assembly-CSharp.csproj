@@ -44,7 +44,11 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+  <ItemGroup>     <Compile Include="Assets\Clone.cs" />
+     <Compile Include="Assets\CloneInformation.cs" />
+     <Compile Include="Assets\Lijst.cs" />
+     <Compile Include="Assets\PlayOrPause.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
