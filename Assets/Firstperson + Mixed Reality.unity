@@ -1223,36 +1223,6 @@ MonoBehaviour:
   rows: 1
   cellWidth: 0.032
   cellHeight: 0.04
---- !u!1 &21029757
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 21029758}
-  m_Layer: 0
-  m_Name: IconAndText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &21029758
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21029757}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0025, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 252178456}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &22533417
 GameObject:
   m_ObjectHideFlags: 0
@@ -9761,37 +9731,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251629902}
   m_Mesh: {fileID: 0}
---- !u!1 &252178455
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 252178456}
-  m_Layer: 0
-  m_Name: ButtonOne (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &252178456
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252178455}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0264, y: 0.0341, z: 1.0006}
-  m_LocalScale: {x: 1.5679, y: 1.5679, z: 1.5679}
-  m_Children:
-  - {fileID: 21029758}
-  m_Father: {fileID: 884149822}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &255396410
 GameObject:
   m_ObjectHideFlags: 0
@@ -28250,7 +28189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9b7c9d26865f04328ac37c06941781a6, type: 2}
+  - {fileID: 2100000, guid: 9e1f83bfb999649fabec6252022a3467, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31551,7 +31490,6 @@ Transform:
   m_LocalPosition: {x: 0.0356, y: 0.0126, z: -1.0104}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 252178456}
   - {fileID: 1297861090}
   m_Father: {fileID: 1912257335}
   m_RootOrder: 1
@@ -39740,7 +39678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Joji
+  m_text: 'Run
 
 '
   m_isRightToLeft: 0
@@ -39812,7 +39750,7 @@ MonoBehaviour:
   m_margin: {x: -0.043783337, y: -0.0022691963, z: -0.047410715, w: -0.012689824}
   m_textInfo:
     textComponent: {fileID: 1125822078}
-    characterCount: 5
+    characterCount: 4
     spriteCount: 0
     spaceCount: 1
     wordCount: 1
@@ -46763,7 +46701,7 @@ Transform:
   - {fileID: 109786604}
   - {fileID: 579895911}
   m_Father: {fileID: 884149822}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1297861091
 MonoBehaviour:
@@ -46781,8 +46719,8 @@ MonoBehaviour:
   debounceThreshold: 0.01
   localForward: {x: 0, y: 0, z: -1}
   localUp: {x: 0, y: 1, z: 0}
-  localCenter: {x: 0, y: 0, z: -0.008}
-  bounds: {x: 0.032, y: 0.032}
+  localCenter: {x: -0.013874527, y: 0.036817104, z: -0.008}
+  bounds: {x: 0.095161624, y: 0.10701897}
   touchableCollider: {fileID: 1297861096}
 --- !u!82 &1297861092
 AudioSource:
@@ -46912,12 +46850,12 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 413267722}
-        m_MethodName: 
+      - m_Target: {fileID: 1912257336}
+        m_MethodName: change
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -67581,6 +67519,7 @@ GameObject:
   - component: {fileID: 1912257333}
   - component: {fileID: 1912257332}
   - component: {fileID: 1912257331}
+  - component: {fileID: 1912257336}
   m_Layer: 0
   m_Name: NearMenuExample3x1 (4)
   m_TagString: Untagged
@@ -67767,6 +67706,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1912257336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912257330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4decaf5d36f48539205b08f276ed62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materiaal: {fileID: 1912257330}
+  player: {fileID: 413267722}
 --- !u!1 &1914362474
 GameObject:
   m_ObjectHideFlags: 0

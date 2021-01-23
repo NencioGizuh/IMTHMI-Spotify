@@ -6,11 +6,13 @@ public class CloneInformation : MonoBehaviour
 {
     [SerializeField]
     public GameObject materiaal;
+
     [SerializeField]
-    public Material material;
+    public GameObject player;
 
     [SerializeField]
     public void change() {
-        materiaal.GetComponent<MeshRenderer> ().material = material;
+        Debug.Log(materiaal.transform.GetChild(1).transform.GetChild(0).transform.GetChild(4).transform.GetChild(0).GetComponent<MeshRenderer> ().material);
+        player.GetComponent<MeshRenderer> ().material = materiaal.transform.GetChild(1).transform.GetChild(0).transform.GetChild(4).transform.GetChild(0).GetComponent<MeshRenderer> ().material;
     }
 }
